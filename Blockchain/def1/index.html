@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <title>Responsive Login Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      charset="utf-8"
+    ></script>
+  </head>
+
+  <body>
+    <div class="form">
+      <form class="login-form" action="" method="post">
+        <i class="fas fa-user-circle"></i>
+        <input
+          class="user-input"
+          type="password"
+          name=""
+          placeholder="Enter the private key"
+          required
+        />
+        <div class="private">
+          <a href="./private.html" type="btn" class="btn btn-lg">SUBMIT</a>    
+        </div>
+        <input
+          class="user-input"
+          type="password"
+          name=""
+          placeholder="Enter the Health public key"
+          required
+        />
+        <div class="public">
+          <a href="health.html" type="btn" class="btn btn-lg">SUBMIT</a>      
+        </div>
+        <input
+          class="user-input"
+          type="password"
+          name=""
+          placeholder="Enter the Finance public key"
+          required
+        />
+        <div class="public">
+          <a href="finance.html" type="btn" class="btn btn-lg">SUBMIT</a>      
+        </div>
+        
+        
+      </form>
+
+      
+    </div>
+    <script type="text/javascript">
+      $(".options-02 a").click(function () {
+        $("form").animate(
+          {
+            height: "toggle",
+            opacity: "toggle",
+          },
+          "slow"
+        );
+      });
+    </script>
+  
+  </body>
+</html>

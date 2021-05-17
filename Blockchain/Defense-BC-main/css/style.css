@@ -1,0 +1,106 @@
+body{
+    overflow-x: hidden;
+}   
+.navbar .nav-link{
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+
+}
+.navbar .nav-item.active{
+    border: left #444  3px solid;
+}
+.navbar-brand{
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow:whitesmoke;
+}
+.carousel-item{
+    height: 450px;
+}
+.carousel-image-1{
+    background: url(../img/block15.jpg);
+    background-size: cover;
+}
+.carousel-image-2{
+    background: url(../img/block16.jpg);
+    background-size: cover;
+}
+.carousel-image-3{
+    background: url(../img/block2.jpeg);
+    background-size: cover;
+}
+
+#home-heading{
+    position: relative;
+    min-height: 200px;
+    background: url(../img/block11.jfif);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+}
+#home-heading p{
+    color:black;
+}
+.dark-overlay{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   /* background: rgba(1, 0, 0, 0.7);*/
+}
+#video-play{
+    position: relative;
+    min-height: 200px;
+    background: url(../img/block14.jfif);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0- 300px;
+    text-align: center;
+    color: #fff;
+}
+#video-play a{
+    color: #fff;
+
+}
+#main-footer{
+    background-color: #444;
+}
+
+#page-header{
+    height: 200px;
+    background: url(../img/block13.jfif);
+    background-attachment: fixed;
+    background-position: 0 -360px;
+    color: #fff;
+    padding-top: 50px;
+    border-bottom: 1px #eee solid;
+}
+.about-img{
+    margin-top: 50px;
+    border-radius: 50%;
+}
+.about-img1{
+    margin-top: 10px;
+}
+/*SIGNUP*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
